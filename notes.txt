@@ -1,0 +1,8 @@
+Base loader:
+https://python.langchain.com/docs/integrations/document_loaders/web_base
+
+Document loaders code:
+https://github.com/langchain-ai/langchain/tree/master/libs/community/langchain_community/document_loaders
+
+pip install langchain==0.1.12 beautifulsoup4==4.12.2 html2text==2024.2.26 lxml==5.1.0 tqdm==4.66.2
+
