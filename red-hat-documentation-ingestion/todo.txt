@@ -1,0 +1,85 @@
+
+-----------------------------------
+Processing "Red Hat 3scale API Management" at version 3.14, language en-US
+You try to use a model that was created with version 2.4.0.dev0, however, your version is 2.4.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+Found 0 pages:
+[]
+Generating splits...
+Generated 0 splits.
+<All keys matched successfully>
+Uploading documents to collection red_hat_3scale_api_management_en_US_3_14
+Batches: 
+ 0/0 [00:00<?, ?it/s]
+Finished!
+
+-----------------------------------
+Processing "Red Hat Advanced Cluster Security for Kubernetes" at version 2.14, language en-US
+You try to use a model that was created with version 2.4.0.dev0, however, your version is 2.4.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+Found 0 pages:
+[]
+Generating splits...
+Generated 0 splits.
+<All keys matched successfully>
+Uploading documents to collection red_hat_advanced_cluster_security_for_kubernetes_en_US_2_14
+Batches: 
+ 0/0 [00:00<?, ?it/s]
+Finished!
+
+-----------------------------------
+Processing "Red Hat Enterprise Linux" at version 7, language en-US
+Found 48 pages:
+['upgrading_from_rhel_6_to_rhel_7', '7.9_release_notes', '7.8_release_notes', '7.7_release_notes', '7.6_release_notes', '7.5_release_notes', '7.4_release_notes', '7.3_release_notes', '7.2_release_notes', '7.1_release_notes', '7.0_release_notes', 'package_manifest', 'installation_guide', 'image_builder_guide', 'desktop_migration_and_administration_guide', 'migration_planning_guide', 'system_administrators_guide', 'managing_systems_using_the_rhel_7_web_console', 'automating_system_administration_by_using_rhel_system_roles_in_rhel_7.9', 'networking_guide', 'kernel_administration_guide', 'performance_tuning_guide', 'power_management_guide', 'resource_management_guide', 'systemtap_beginners_guide', 'systemtap_tapset_reference', 'security_guide', 'selinux_users_and_administrators_guide', 'storage_administration_guide', 'logical_volume_manager_administration', 'dm_multipath', 'developer_guide', 'rpm_packaging_guide', 'anaconda_customization_guide', 'deploying_red_hat_enterprise_linux_7_on_public_cloud_platforms', 'virtualization_getting_started_guide', 'virtualization_deployment_and_administration_guide', 'virtualization_tuning_and_optimization_guide', 'virtualization_security_guide', 'high_availability_add-on_overview', 'high_availability_add-on_administration', 'load_balancer_administration', 'high_availability_add-on_reference', 'global_file_system_2', 'system-level_authentication_guide', 'using_containerized_identity_management_services', 'linux_domain_identity_authentication_and_policy_guide', 'windows_integration_guide']
+Generating splits...
+Error processing "Red Hat Enterprise Linux" at version 7, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------------------------------
+Processing "Red Hat Hybrid Cloud Console" at version 1-latest, language en-US
+Found 11 pages:
+['getting_started_with_the_red_hat_hybrid_cloud_console', 'configuring_cloud_integrations_for_red_hat_services', 'configuring_notifications_on_the_red_hat_hybrid_cloud_console', 'integrating_the_red_hat_hybrid_cloud_console_with_third-party_applications', 'remote_host_configuration_and_management', 'creating_and_managing_service_accounts', 'user_access_configuration_guide_for_role-based_access_control_rbac', 'using_two-factor_authentication', 'getting_started_with_the_red_hat_hybrid_cloud_console_with_fedramp', 'configuring_notifications_on_the_red_hat_hybrid_cloud_console_with_fedramp', 'user_access_configuration_guide_for_role-based_access_control_rbac_with_fedramp']
+Generating splits...
+Error processing "Red Hat Hybrid Cloud Console" at version 1-latest, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------------------------------
+Processing "Red Hat Insights" at version 1-latest, language en-US
+Found 42 pages:
+['getting_started_with_red_hat_insights', 'release_notes', 'remote_host_configuration_and_management', 'client_configuration_guide_for_red_hat_insights', 'deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_cloud_access', 'deploying_red_hat_insights_on_existing_rhel_systems_managed_by_red_hat_update_infrastructure', 'deploying_and_managing_rhel_systems_in_hybrid_clouds', 'viewing_and_managing_system_inventory', 'creating_customized_images_by_using_insights_image_builder', 'system_patching_using_remediation_playbooks', 'assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service', 'generating_advisor_service_reports', 'comparing_system_configurations_and_baselines_in_red_hat_insights_inventory', 'system_comparison_api_documentation', 'monitoring_and_reacting_to_configuration_changes_using_policies', 'assessing_and_monitoring_security_vulnerabilities_on_rhel_systems', 'generating_vulnerability_service_reports', 'assessing_and_monitoring_security_policy_compliance_of_rhel_systems', 'generating_compliance_service_reports', 'assessing_and_reporting_malware_signatures_on_rhel_systems', 'assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux', 'red_hat_insights_remediations_guide', 'converting_from_an_rpm-based_linux_distribution_to_rhel_using_red_hat_insights', 'assessing_and_remediating_system_issues_using_red_hat_insights_tasks', 'user_access_configuration_guide_for_role-based_access_control_rbac', 'configuring_notifications_on_the_red_hat_hybrid_cloud_console', 'integrating_the_red_hat_hybrid_cloud_console_with_third-party_applications', 'release_notes_with_fedramp', 'getting_started_with_red_hat_insights_with_fedramp', 'assessing_and_monitoring_rhel_resource_optimization_with_insights_for_red_hat_enterprise_linux_with_fedramp', 'assessing_and_monitoring_security_policy_compliance_of_rhel_systems_with_fedramp', 'assessing_and_monitoring_security_vulnerabilities_on_rhel_systems_with_fedramp', 'assessing_and_reporting_malware_signatures_on_rhel_systems_with_fedramp', 'assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service_with_fedramp', 'client_configuration_guide_for_red_hat_insights_with_fedramp', 'comparing_system_configurations_and_baselines_in_red_hat_insights_inventory_with_fedramp', 'generating_advisor_service_reports_with_fedramp', 'generating_compliance_service_reports_with_fedramp', 'generating_vulnerability_service_reports_with_fedramp', 'monitoring_and_reacting_to_configuration_changes_using_policies_with_fedramp', 'red_hat_insights_remediations_guide_with_fedramp', 'system_patching_using_remediation_playbooks_with_fedramp']
+Generating splits...
+Error processing "Red Hat Insights" at version 1-latest, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------
+Processing "Red Hat OpenShift Container Platform" at version 4.15, language en-US
+Found 42 pages:
+['about', 'getting_started', 'release_notes', 'security_and_compliance', 'architecture', 'support', 'installing', 'installing_openshift_container_platform_with_the_assisted_installer', 'updating_clusters', 'authentication_and_authorization', 'networking', 'registry', 'postinstallation_configuration', 'storage', 'scalability_and_performance', 'edge_computing', 'migrating_from_version_3_to_4', 'migration_toolkit_for_containers', 'backup_and_restore', 'machine_management', 'web_console', 'hosted_control_planes', 'cli_tools', 'building_applications', 'serverless', 'images', 'nodes', 'operators', 'specialized_hardware_and_driver_enablement', 'openshift_sandboxed_containers_release_notes', 'openshift_sandboxed_containers_user_guide', 'builds_using_buildconfig', 'jenkins', 'monitoring', 'logging', 'distributed_tracing', 'red_hat_build_of_opentelemetry', 'network_observability', 'power_monitoring', 'virtualization', 'service_mesh', 'windows_container_support_for_openshift']
+Generating splits...
+Error processing "Red Hat OpenShift Container Platform" at version 4.15, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------------------------------
+Processing "Red Hat OpenShift Container Platform" at version 4.14, language en-US
+Found 41 pages:
+['about', 'getting_started', 'release_notes', 'security_and_compliance', 'architecture', 'support', 'installing', 'installing_openshift_container_platform_with_the_assisted_installer', 'updating_clusters', 'authentication_and_authorization', 'networking', 'registry', 'postinstallation_configuration', 'storage', 'scalability_and_performance', 'migrating_from_version_3_to_4', 'migration_toolkit_for_containers', 'backup_and_restore', 'machine_management', 'web_console', 'hosted_control_planes', 'cli_tools', 'building_applications', 'serverless', 'images', 'nodes', 'operators', 'specialized_hardware_and_driver_enablement', 'openshift_sandboxed_containers_release_notes', 'openshift_sandboxed_containers_user_guide', 'builds_using_buildconfig', 'jenkins', 'monitoring', 'logging', 'distributed_tracing', 'red_hat_build_of_opentelemetry', 'network_observability', 'power_monitoring', 'virtualization', 'service_mesh', 'windows_container_support_for_openshift']
+Generating splits...
+Error processing "Red Hat OpenShift Container Platform" at version 4.14, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------------------------------
+Processing "Red Hat OpenShift Container Platform" at version 4.13, language en-US
+Found 40 pages:
+['about', 'getting_started', 'release_notes', 'security_and_compliance', 'architecture', 'support', 'installing', 'assisted_installer_for_openshift_container_platform', 'updating_clusters', 'authentication_and_authorization', 'networking', 'registry', 'post-installation_configuration', 'storage', 'scalability_and_performance', 'backup_and_restore', 'machine_management', 'web_console', 'hosted_control_planes', 'migrating_from_version_3_to_4', 'migration_toolkit_for_containers', 'cli_tools', 'building_applications', 'serverless', 'images', 'nodes', 'operators', 'specialized_hardware_and_driver_enablement', 'openshift_sandboxed_containers_release_notes', 'openshift_sandboxed_containers_user_guide', 'builds', 'jenkins', 'monitoring', 'logging', 'distributed_tracing', 'red_hat_build_of_opentelemetry', 'network_observability', 'virtualization', 'service_mesh', 'windows_container_support_for_openshift']
+Generating splits...
+Error processing "Red Hat OpenShift Container Platform" at version 4.13, language en-US
+'NoneType' object has no attribute 'find_all'
+-----------------------------------
+Processing "Red Hat OpenShift Container Platform" at version 4.12, language en-US
+Found 38 pages:
+['about', 'getting_started', 'release_notes', 'security_and_compliance', 'architecture', 'support', 'installing', 'assisted_installer_for_openshift_container_platform', 'updating_clusters', 'authentication_and_authorization', 'networking', 'registry', 'post-installation_configuration', 'storage', 'scalability_and_performance', 'migrating_from_version_3_to_4', 'migration_toolkit_for_containers', 'backup_and_restore', 'machine_management', 'web_console', 'cli_tools', 'building_applications', 'serverless', 'images', 'nodes', 'sandboxed_containers_support_for_openshift', 'operators', 'specialized_hardware_and_driver_enablement', 'builds', 'jenkins', 'monitoring', 'logging', 'distributed_tracing', 'red_hat_build_of_opentelemetry', 'network_observability', 'virtualization', 'service_mesh', 'windows_container_support_for_openshift']
+Generating splits...
+Error processing "Red Hat OpenShift Container Platform" at version 4.12, language en-US
+'NoneType' object has no attribute 'find_all'
+
+
+
