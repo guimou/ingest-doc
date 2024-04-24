@@ -28,7 +28,7 @@ def get_pages(product, version, language):
     for match in new_soup.findAll('a'):
         links.append(match.get('href'))
     links = [url for url in links if url.startswith('/documentation')] # Filter out unwanted links
-    pages = [link.split('/html/')[1] for link in links if '/html/' in link] # Extract the page names
+    pages = [link.replace('/html/', '/html-single/') for link in links if '/html/' in link] # We want single pages html
 
     return pages
 
@@ -37,7 +37,8 @@ def split_document(product, version, language, page, product_full_name):
     """Split a Red Hat documentation page into smaller sections."""
 
     # Load, parse, and transform to Markdown
-    document_url = ["https://access.redhat.com/documentation/" + language + "/" + product + "/" + version + "/html-single/" + page + "/index"]
+    document_url = ["https://access.redhat.com" + page]
+    print(f"Processing: {document_url}")
     loader = RedHatDocumentationLoader(document_url)
     docs = loader.load()
     html2text = Html2TextTransformer()
