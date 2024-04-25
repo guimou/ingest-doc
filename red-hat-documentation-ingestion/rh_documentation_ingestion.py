@@ -14,7 +14,7 @@ def ingest_documentation(product_info, milvus):
     MILVUS_PORT = milvus["MILVUS_PORT"]
     MILVUS_USERNAME = milvus["MILVUS_USERNAME"]
     MILVUS_PASSWORD = milvus["MILVUS_PASSWORD"]
-    MILVUS_COLLECTION = f"{product_info.product.replace('-', '_')}_{product_info.language.replace('-', '_')}_{product_info.version.replace('.', '_')}"
+    MILVUS_COLLECTION = f"{product_info.product}_{product_info.language}_{product_info.version}".replace("-","_").replace(".","_")
 
     splits = rhdp.generate_splits(product_info.product,
                                   product_info.product_full_name,
